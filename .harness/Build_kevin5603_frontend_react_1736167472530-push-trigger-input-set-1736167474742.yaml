@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kevin5603_frontend_react_1736167472530-push-trigger-input-set
+  identifier: Build_kevin5603_frontend_react_1736167472530pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: webdemo
+  pipeline:
+    identifier: Build_kevin5603_frontend_react_1736167472530
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
