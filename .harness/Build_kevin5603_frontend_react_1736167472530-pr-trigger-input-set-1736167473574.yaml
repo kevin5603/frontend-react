@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kevin5603_frontend_react_1736167472530-pr-trigger-input-set
+  identifier: Build_kevin5603_frontend_react_1736167472530prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: webdemo
+  pipeline:
+    identifier: Build_kevin5603_frontend_react_1736167472530
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
