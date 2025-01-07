@@ -17,7 +17,7 @@ export const loginService = {
     return response.json();
   },
   findUserByName: async (username: string) => {
-    const response = await fetch(`${endpoint}/${username}`, {
+    const response = await fetch(`${endpoint}/search/${username}`, {
       method: "GET",
     });
     console.log(response);
